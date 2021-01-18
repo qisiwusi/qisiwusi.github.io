@@ -13,7 +13,7 @@ function ajax()
     {
         if (xhr.readyState==4 && xhr.status==200)
         {
-            //document.getElementById('result').innerText = xhr.responseText;
+            document.getElementById('result').innerText = xhr.responseText;
           //得到ip地址没删除多余字符
           var aaa = xhr.responseText;
           //alert(aaa);
